@@ -1,0 +1,190 @@
+body {
+    font-family: 'Roboto Slab', 'sans-serif';
+    font-size: 16px;
+    background-color: #d0d5da;
+    color: #2A2B2E;
+    margin: 0;
+    /* height: 100vh; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+header {
+    background-color: #fff;
+    padding: 5px 5px 0px 5px;
+    border-bottom: 2px solid #97939A;
+    background-color: #212529;
+    /* vertical-align: text-top; */
+    /* position: fixed; */
+    width: 100%;
+    /* text-align: center; */
+}
+
+hr {
+    height: 1px;
+    width: 100%;
+    color: #A5AEB7;
+    /* opacity: 0.3; */
+}
+
+.header-icon {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    padding: 5px 0px 0px 10px;
+}
+
+main {
+    height: 100%;
+    /* padding: 15px 25px 25px 25px; */
+    padding: 10px 25px 0px 25px;
+}
+
+h1 {
+    color: #fff;
+    font-family: 'inherit', 'serif';
+    font-size: 36px;
+    margin: 0;
+    font-weight: normal;
+    text-align: center;
+}
+
+h2 {
+    color: #c1c1c1;
+    font-family: 'inherit', 'serif';
+    font-weight: normal;
+    font-size: 20px;
+    text-align: center;
+}
+
+.filter {
+    /* text-align: center; */
+    background-color: #d0d5da;
+    padding: 15px 25px 0px 25px;
+    border: 3px solid #A5AEB7;
+    border-radius: 15px;
+}
+
+footer {
+    color: #000;
+    font-family: 'inherit', 'serif';
+    font-size: 12px;
+    font-weight: normal;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+}
+
+/* svg {
+    background-color: #ffffff;
+} */
+
+section {
+    width: 100%;
+}
+
+.button {
+    color: #000;
+    font-family: 'Helvetica', 'sans-serif';
+    font-size: 16px;
+    text-align: center;
+}
+
+button:hover, button:active {
+	background:linear-gradient(to bottom, #f6f6f6 5%, #ffffff 100%);
+	background-color:#f6f6f6;
+}
+
+.title, .axis-text {
+    transform-origin: center;
+    transform-box: fill-box;
+    text-anchor: left;
+}
+
+.title2 {
+    transform-origin: center;
+    transform-box: fill-box;
+    text-anchor: left;
+    font-size: 12px;
+}
+
+.viz-container{
+    /* height: 100%; */
+    padding-top: 10px;
+    /* padding: 0 100px; */
+}
+
+.graph {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tick line{
+    visibility: show;
+    opacity: 0.1;
+  }
+
+.info {
+    pointer-events: none;
+    font-family: 'Roboto';
+}
+
+.axis text {
+    font-family: 'Roboto';
+    cursor: default;
+}
+
+.axis path {
+    opacity: 0;
+}
+
+.domain{
+    opacity: 0;
+}
+
+.cardValue {
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.cardDetail {
+    font-size: 10px;
+    text-align: center;
+}
+
+.bars {
+    stroke: #b4cae0;
+    stroke-width: 1px;
+}
+
+.cardcontainer {
+    width: 34%;
+    float: left;
+    /* width: 320px;
+    height: 320px; */
+    /* padding: 40%; */
+    /* box-sizing: border-box;
+    position: relative; */
+}
+
+.cardd {
+    border: 3px solid #A5AEB7;
+    border-radius: 15px;
+}
+
+.percentagechart {
+    width: 64%;
+    /* padding: 10px 0px 0px 10px; */
+    float: right;
+    /* background-color: #EDF3FA; */
+    background-color: #f5f9fd;
+    border-radius: 15px;
+    /* padding: 10px 10px 10px 10px; */
+}
+
+/*# sourceMappingURL=/style.81fd7547.css.map */
